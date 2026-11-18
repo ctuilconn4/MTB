@@ -1,0 +1,11 @@
+pandas
+openpyxl
+jinja2
+plotly>=6.1
+kaleido>=1.0
+tsdownsample
+psutil
+mhi.psout
+pypdf
+scipy>=1.10.1
+tqdm

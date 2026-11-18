@@ -1,0 +1,19 @@
+figure;title;units;emt_signal_1;emt_signal_2;emt_signal_3;rms_signal_1;rms_signal_2;rms_signal_3;down_sampling_method;gradient_threshold;include_in_case;exclude_in_case
+1;Vpp;pu;MTB\meas_Vab_pu;MTB\meas_Vbc_pu;MTB\meas_Vca_pu;meas\s:Vab_pu;meas\s:Vbc_pu;meas\s:Vca_pu;gradient;0.5;;
+2;Vpg;pu;MTB\meas_Vag_pu;MTB\meas_Vbg_pu;MTB\meas_Vcg_pu;meas\s:Vag_pu;meas\s:Vbg_pu;meas\s:Vcg_pu;gradient;0.5;;
+3;Vseq;pu;MTB\fft_pos_Vmag_pu;MTB\fft_neg_Vmag_pu;;meas\s:pos_Vmag_pu;meas\s:neg_Vmag_pu;;gradient;0.5;;
+4;Itotal;pu;MTB\meas_Ia_pu;MTB\meas_Ib_pu;MTB\meas_Ic_pu;meas\s:Ia_pu;meas\s:Ib_pu;meas\s:Ic_pu;gradient;0.5;;
+5;Iactive;pu;MTB\fft_pos_Id_pu;MTB\fft_neg_Id_pu;;meas\s:pos_Id_pu;meas\s:neg_Id_pu;;gradient;0.5;;
+6;Ireactive;pu;MTB\fft_pos_Iq_pu;MTB\fft_neg_Iq_pu;;meas\s:pos_Iq_pu;meas\s:neg_Iq_pu;;gradient;0.5;;
+7;Ppoc;pu;MTB\P_pu_PoC;MTB\mtb_s_pref_pu;;meas\s:ppoc_pu;;;gradient;0.5;;
+8;Qpoc;pu;MTB\Q_pu_PoC;MTB\mtb_s_qref;;meas\s:qpoc_pu;;;gradient;0.5;;
+9;F;Hz;MTB\pll_f_hz;;;meas\s:f_hz;;;gradient;0.5;;
+10;Id_pll;pu;MTB\pll_pos_Id_pu;MTB\pll_neg_Id_pu;;;;;gradient;0.5;;
+11;Iq_pll;pu;MTB\pll_pos_Iq_pu;MTB\pll_neg_Iq_pu;;;;;gradient;0.5;;
+12;Unit;pu;Unit\unit_fft_pos_Id_pu;Unit\unit_fft_pos_Iq_pu;Unit\unit_fft_pos_Vmag_pu;Unit_1\m:i1P:bus1 in p.u.;Unit_1\m:i1Q:bus1 in p.u.;Unit_1\m:u1:bus1 in p.u.;gradient;0.5;;
+13;Vpg (Inst.);kV;MTB\meas_Vag_kV;MTB\meas_Vbg_kV;MTB\meas_Vcg_kV;;;;gradient;0.5;1,2,3,4,5,6,7,8,9,10,98;
+14;Iline (Inst.);kA;MTB\meas_Ia_kA;MTB\meas_Ib_kA;MTB\meas_Ic_kA;;;;gradient;0.5;1,2,3,4,5,6,7,8,9,10,98;
+15;SIPS (G1);Integer/Binary;mtb_SIPS_g;SIPS_g_step_1;SIPS_g_step_2;MTB\MTB\mtb_s_sips_g.ElmDsl\s:yo;MTB\MTB\mtb_sips_decoder_g.ElmDsl\s:sips_step_1;MTB\MTB\mtb_sips_decoder_g.ElmDsl\s:sips_step_2;gradient;0.5;57,58,59,177,178;
+16;SIPS (G2);Binary;SIPS_g_step_3;SIPS_g_step_4;SIPS_g_step_5;MTB\MTB\mtb_sips_decoder_g.ElmDsl\s:sips_step_3;MTB\MTB\mtb_sips_decoder_g.ElmDsl\s:sips_step_4;MTB\MTB\mtb_sips_decoder_g.ElmDsl\s:sips_step_5;gradient;0.5;57,58,59,177,178;
+17;SIPS (D1);Integer/Binary;mtb_SIPS_d;SIPS_d_step_1;SIPS_d_step_2;MTB\MTB\mtb_s_sips_d.ElmDsl\s:yo;MTB\MTB\mtb_sips_decoder_d.ElmDsl\s:sips_step_1;MTB\MTB\mtb_sips_decoder_d.ElmDsl\s:sips_step_2;gradient;0.5;1043,1044,1087,1088;
+18;SIPS (D2);Binary;SIPS_d_step_3;SIPS_d_step_4;SIPS_d_step_5;MTB\MTB\mtb_sips_decoder_d.ElmDsl\s:sips_step_3;MTB\MTB\mtb_sips_decoder_d.ElmDsl\s:sips_step_4;MTB\MTB\mtb_sips_decoder_d.ElmDsl\s:sips_step_5;gradient;0.5;1043,1044,1087,1088;
