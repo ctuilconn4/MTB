@@ -47,7 +47,7 @@ The generated HTML reports include:
 
 | Section | Page                                                                                                                        | Purpose                                                                                         |
 | ------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| 1       | [Quickstart Testcases Workbook Guide](https://github.com/Energinet-SimTools/MTB/wiki/1.-Quickstart-Testcases-Workbook-Guide) | Configure`testcases.xlsx`, case sheets, settings, and event types.                            |
+| 1       | [Quickstart Testcases Workbook Guide](https://github.com/ctuilconn4/MTB/wiki/1.-Quickstart-Testcases-Workbook-Guide) | Configure`testcases.xlsx`, case sheets, settings, and event types.                            |
 | 2       | [Quickstart PowerFactory Guide](https://github.com/Energinet-SimTools/MTB/wiki/2.-Quickstart-PowerFactory-Guide)             | Set up and execute MTB cases in PowerFactory.                                                   |
 | 3       | [Quickstart PSCAD Guide](https://github.com/Energinet-SimTools/MTB/wiki/3.-Quickstart-PSCAD-Guide)                           | Set up and execute MTB cases in PSCAD.                                                          |
 | 4       | [Quickstart Plotter Guide](https://github.com/Energinet-SimTools/MTB/wiki/4.-Quickstart-Plotter-Guide)                       | Configure and run the MTB plotter.                                                              |
